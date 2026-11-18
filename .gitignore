@@ -1,0 +1,16 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Kubernetes secrets
+k8s/secret.yaml
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
